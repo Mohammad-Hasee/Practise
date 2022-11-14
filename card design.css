@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/beautiful.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-container{
+    overflow: hidden;
+    margin: 50px;
+    margin-left: 180px;
+    padding-bottom: 60px;
+}
+.w-30{
+    width: 30%;
+    float: left;
+    padding: 0px 20px;
+}
+/*.resize{
+    height: 400;
+    width: 500;
+}*/
+.card img{
+    width: 100%;
+}
+.card{
+    background-color: gray;
+    transition: 0.5s;
+}
+.card-content{
+    padding: 25px;
+    text-align: center;
+}
+.card h2{
+    font-size: 33px;
+    margin-bottom: 15px;
+}
+.card a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color:#CAD3C8;
+    text-align: center;
+}
+.card p{
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.25);
+}
